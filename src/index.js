@@ -4,5 +4,7 @@
  */
 
 import Greeting from './Greeting.js';
+import Ladder from './Ladder.js';
 
-export default { Greeting };
+export default { Greeting, Ladder };
+

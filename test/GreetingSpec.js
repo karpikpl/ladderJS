@@ -15,4 +15,9 @@ describe('Greeting', () => {
     expect(message).to.be.equal('Welcome, Guest!');
   });
 
+
+   it('Says hello world', () => {
+       const greeting = new Greeting();
+       greeting.run();
+   })
 });
