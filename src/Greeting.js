@@ -26,6 +26,3 @@ class Greeting {
 }
 
 export default Greeting;
-
-const gret = new Greeting();
-gret.run();
